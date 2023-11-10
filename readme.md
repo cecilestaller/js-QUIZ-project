@@ -9,6 +9,8 @@
 
 ## Demo
 
+https://cecilestaller.github.io/js-QUIZ-project/
+
 ## Screenshots
 
 ![pap flowchart](./assets/img/pap-flowchart-quiz.png)
