@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "raleway";
+  src: url(./../fonts/Raleway-VariableFont_wght.ttf);
+}
+body {
+  text-align: center;
+  background-color: #E9F7CA;
+  font-family: "raleway";
+}
+body h1 {
+  margin-block: 3vh;
+  font-size: 2.5rem;
+}
+body h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+body #content {
+  padding-inline: 5%;
+  margin: 0 auto 10vh auto;
+  max-width: 60vw;
+  min-width: 350px;
+}
+body #content img {
+  display: block;
+  max-width: 100%;
+  margin: 8vh auto 0 auto;
+}
+body #content p {
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+body #content .choices {
+  display: inline-block;
+  margin-block: 1vh;
+}
+body #content .choices button {
+  padding: 12px 16px;
+  font-size: 1.25rem;
+  font-family: "raleway";
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #b5daf1;
+  border: none;
+}
+body #content .choices button:hover {
+  background-color: #0581cd;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
